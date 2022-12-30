@@ -129,6 +129,10 @@ export const ModalWrapper = styled.div`
     @media (max-width: 576px) {
       flex-direction: column;
       width: 100%;
+
+      button {
+        min-width: 100%;
+      }
     }
   }
 `
