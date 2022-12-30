@@ -1,0 +1,20 @@
+export const defaultTheme = {
+  '--black': 'rgba(41, 41, 46, 1)',
+  '--white': 'rgba(255, 255, 255, 1)',
+  '--shadow': 'rgba(5, 2, 6, 0.8)',
+  '--purple': 'rgba(131, 90, 253, 1)',
+  '--gradient':
+    'linear-gradient(90deg, rgba(72, 91, 255, 1) 0%, rgba(255, 89, 248, 1) 100%)',
+  '--danger': 'rgba(231, 63, 93, 1)',
+  '--gray-dark': 'rgba(115, 115, 128, 1)',
+  '--gray-medium': 'rgba(168, 168, 179, 1)',
+  '--gray-light': 'rgba(219, 220, 221, 1)',
+  '--white-background': 'rgba(248, 248, 248, 1)',
+  '--white-details': 'rgba(254, 254, 254, 1)',
+  '--pink-dark': 'rgba(229, 89, 249, 1)',
+  '--pink--Light': 'rgba(214, 126, 226, 1)',
+  '--purple-hover': 'rgba(111, 75, 216, 1)',
+  '--danger-hover': 'rgba(215, 55, 84, 1)',
+  '--gray-medium-hover': 'rgba(126, 126, 134, 1)',
+  '--gray-light-hover': 'rgba(206, 206, 206, 1)',
+}
