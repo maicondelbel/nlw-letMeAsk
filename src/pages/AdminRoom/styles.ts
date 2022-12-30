@@ -14,7 +14,6 @@ export const MainContainer = styled.main`
 
   svg {
     align-self: center;
-    /* color: ${(props) => props.theme['--purple']}; */
   }
 `
 
@@ -25,10 +24,15 @@ export const TitleContainer = styled.div`
 
   h1 {
     font-size: 1.5rem;
+    flex: 1;
   }
 
   @media (max-width: 576px) {
     flex-direction: column;
+
+    h1 {
+      text-align: center;
+    }
   }
 `
 

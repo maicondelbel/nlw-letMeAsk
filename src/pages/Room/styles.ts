@@ -35,6 +35,7 @@ export const TitleContainer = styled.div`
 
   h1 {
     font-size: 1.5rem;
+    flex: 1;
   }
 
   span {
@@ -48,6 +49,10 @@ export const TitleContainer = styled.div`
 
   @media (max-width: 576px) {
     flex-direction: column;
+
+    h1 {
+      text-align: center;
+    }
   }
 `
 export const FormContainer = styled.form`
